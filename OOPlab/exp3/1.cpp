@@ -21,24 +21,23 @@ public:
         cout<<"\n\tCOUNT="<<count;
     }
 };
-int main()
+main()
 {
-    int ch;
+    char ch;
     char c='y';
     bank b;
     do
     {
-        cout<<"\nEnter 1 to increment and 2 to decrement:";
+        cout<<"\nEnter i to increment and d to decrement:";
         cin>>ch;
-        if(ch==1)
+        if(ch=='i')
            b++;
-        else if(ch==2)
+        else if(ch=='d')
            b--;
         else
-            cout<<"!!! INVLAID INPUT !!!\n";
-        cout<<"Do you want to continue(y/n):";
+            cout<<"Invalid Input\n";
+        cout<<"Do you want to continue?";
         cin>>c;
         b.display();
     }while(c=='y');
-    return 0;
 }
