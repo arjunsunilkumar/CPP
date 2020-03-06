@@ -1,12 +1,3 @@
-
-
----------- Forwarded message ---------
-From: Athira Sankar <athirasankar1794@gmail.com>
-Date: Wed, 26 Feb 2020 at 10:49
-Subject: 4,3
-To: <arjunglal.me@gmail.com>
-
-
 #include<iostream>
 using namespace std;
 class student
