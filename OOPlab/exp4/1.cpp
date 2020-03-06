@@ -15,15 +15,12 @@ class account
         cin>>name;
         cout<<"Enter accno";
         cin>>accno;
-        //cout<<"Enter type";
-        //cin>>type;
         bal=500;
       }
       void display()
       {
         cout<<"Customer Name : "<<name<<"\n";
         cout<<"Account Number : "<<accno<<"\n";
-        //cout<<"Type : "<<type<<"\n";
         cout<<"Balance : "<<bal<<"\n";
       }
       void deposit()
@@ -75,8 +72,6 @@ class cur_acct:public account
         cin>>name;
         cout<<"Enter accno";
         cin>>accno;
-       // cout<<"Enter type";
-        //cin>>type;
         bal=100;
       }
       void withdrawal()
